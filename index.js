@@ -7,9 +7,9 @@ const { keep_alive } = require("./keep_alive");
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login(TOKEN);
+client.login("ODcyNDM3MDk3MDg3MjQ2MzY2.YQp2XQ.ZVufwFVjwpMLu1Y5Yn5DLsdq-qE");
 client.commands = new Collection();
-client.prefix = PREFIX;
+client.prefix = PREFIX;"%"
 client.queue = new Map();
 const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
